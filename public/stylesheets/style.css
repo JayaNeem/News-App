@@ -1,0 +1,36 @@
+.login-box {
+	margin: 70px auto 2px;
+	padding: 50px;
+	width: 440px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.register-box {
+	margin: 45px auto 2px;
+	padding: 50px;
+	width: 460px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.gallery {
+	padding: 5px;
+  margin-top: 20px;
+  margin-left: 255px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 600px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 80%;
+  margin-left: 15px;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+}

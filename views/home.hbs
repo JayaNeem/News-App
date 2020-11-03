@@ -1,0 +1,12 @@
+<div class="container">
+{{#each news}}
+	<div class="gallery">
+	  <div class="desc"><h4>{{this.headline}}</h4></div>
+	  <a>
+	    <img src="/upload/{{this.pic}}" alt="Cinque Terre">
+	  </a>
+	  <div class="desc">{{this.description}}</div>
+	  <hr>
+	</div>
+{{/each}}
+</div>
